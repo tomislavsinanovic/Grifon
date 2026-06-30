@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Grifon</title>
+   <link rel="icon" type="image/png" href="slike/favicon.png">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <script src="script.js"></script>
+</head>
+<body>
+   <nav>
+      <a href="index.html"><img src="slike/logotip.png" alt="logo" width="80px"></a>
+      <div class="izbornik">
+         <a href="ponuda.html">Ponuda</a>
+         <a href="reklama.html">Promocija</a>
+         <a href="onama.html">O nama</a>
+         <a href="kontakt.html">Kontakt</a>
+         <img src="slike/hamb.png" class="hamb" width="50px" onclick="sidebar()">
+      </div>
+      <div class="sidebar">
+         <img src="slike/x.png" class="izlaz" width="50px" onclick="sakrij()">
+         <a href="ponuda.html">Ponuda</a>
+         <a href="reklama.html">Promocija</a>
+         <a href="onama.html">O nama</a>
+         <a href="kontakt.html">Kontakt</a>
+      </div>
+   </nav>
+   <section class="home">
+      <video autoplay muted loop playsinline class="bg-video">
+         <source src="video/klip.webm" type="video/webm">
+         Your browser does not support the video tag.
+      </video>
+      <div class="home-content fade-up-home">
+         <video src="video/logo.webm" width="400" autoplay loop muted playsinline></video>
+         <div class="naslov">
+            <h1>Pivo koje prati <br><span>tvoj ritam</span></h1>
+            <h3>Spoj bogate tradicije i suvremene craft vizije.</h3>
+            <a href="kontakt.html" class="cta">Pronađi nas</a>
+         </div>
+      </div>
+   </section>
+   <section class="origin">
+      <h1>Naša priča</h1>
+      <div class="origin-content fade-up">
+         <section class="piva-animacija-sekcija">
+            <div class="animacija-container">
+               <img src="slike/cs.png" alt="Čuvar snage" class="boca animacija-cs">
+               <img src="slike/nl.png" alt="Noćni lovac" class="boca animacija-nl">
+               <img src="slike/sk.png" alt="Srebrna kandža" class="boca animacija-sk">
+               <img src="slike/dh.png" alt="Drevni hrast" class="boca animacija-dh">
+               <img src="slike/cz.png" alt="Crvena zora" class="boca animacija-cz">
+               <img src="slike/zd.png" alt="Zeleni dragulj" class="boca animacija-zd">
+            </div>
+         </section>
+         <div class="origin-tekst">
+            <h2>Tradicija koja traje od 1904.</h2>
+            <p><i>"Prvi zapisi o ovom pivu sežu u <span>1904. godinu</span>, kada je u maloj zanatskoj pivovari
+               na rubu Zagreba započela proizvodnja piva pod nazivom <span>"čuvar snage"</span>. To nije bio komercijalni proizvod, 
+               već dio obiteljske pivarske tradicije koji se pažljivo prenosio s generacije na generaciju.
+               Rad pivovare obustavljen je u periodu..."</i> 
+            </p>
+            <a href="onama.html" class="cta">Vidi više</a>
+         </div>
+      </div>
+   </section>
+   <section class="kartice">
+      <div class="kartice-header">
+         <h2>NAŠI OKUSI</h2>
+         <p class="kartice-header-tekst">Pronađi onaj koji je stvoren baš za tebe.</p>
+      </div>
+      <a href="product_crvena_zora.html" class="product-link fade-up">
+         <div class="card1">
+            <div class="card-image-wrapper">
+               <img src="slike/crvena_zora.jpg" alt="" width="300px">
+            </div>
+            <p class="card-subtitle">BALANSIRANO I BOGATO</p>
+            <p class="card-title">Crvena zora</p>
+         </div>
+      </a>
+      <a href="product_cuvar_snage.html" class="product-link fade-up">
+         <div class="card2">
+            <div class="card-image-wrapper">
+               <img src="slike/cuvar_snage.jpg" alt="" width="300px">
+            </div>
+            <p class="card-subtitle">TRADICIONALNO</p>
+            <p class="card-title">Čuvar snage</p>
+         </div>
+      </a>
+      <a href="product_drevni_hrast.html" class="product-link fade-up">
+         <div class="card5">
+            <div class="card-image-wrapper">
+               <img src="slike/drevni_hrast.jpg" alt="" width="300px">
+            </div>
+            <p class="card-subtitle">ODLEŽANO I KOMPLEKSNO</p>
+            <p class="card-title">Drevni hrast</p>
+         </div>
+      </a>
+      <div class="kartice-cta">
+         <a href="ponuda.html" class="cta">Cijela ponuda</a>
+      </div>
+   </section>
+   <section class="karakter">
+      <h1>Naš karakter</h1>
+      <div class="kolone">
+         <div class="karakter-lijeva-kolona fade-right">
+            <div class="kartica">
+               <h3><span>Pivski potpis</span></h3>
+               <p>Svaka boca prolazi proces dugog odležavanja, osiguravajući beskompromisnu kvalitetu.</p>
+            </div>
+            <div class="kartica">
+               <h3><span>Prirodni sastojci</span></h3>
+               <p>Koristimo isključivo izvorsku vodu i najkvalitetnije prirodne sirovine, bez dodanih aditiva.</p>
+            </div>
+            <div class="kartica">
+               <h3><span>Domaća receptura</span></h3>
+               <p>Nastalo iz strasti prema pivarstvu, Grifon spaja tradicionalne metode s modernim pivskim trendovima.</p>
+            </div>
+         </div>
+         <div class="karakter-pivo zoom-in">
+            <img src="slike/cs.png" alt="">
+         </div>
+         <div class="karakter-desna-kolona fade-left">
+            <div class="kartica">
+               <h3><span>Bogata aroma</span></h3>
+               <p>Harmoničan spoj probranih sorti hmelja i prženog slada stvara pun, zaokružen okus.</p>
+            </div>
+            <div class="kartica">
+               <h3><span>Zlatni odsjaj</span></h3>
+               <p>Bistro pivo zlatne boje s gustom, postojanom pjenom koja mami na prvi gutljaj.</p>
+            </div>
+            <div class="kartica">
+               <h3><span>Savršen balans </span></h3>
+               <p>Uz umjerenu gorčinu i osvježavajuću notu, Grifon je pivo koje se lako pamti i još lakše pije.</p>
+            </div>
+         </div>
+      </div>
+   </section>
+   <footer>
+      <div class="footer-linkovi1">
+         <a href="reklama.html">Promocija</a>
+         <a href="ponuda.html">Ponuda</a>
+         <a href="onama.html">O nama</a>
+         <a href="kontakt.html">Kontakt</a>
+      </div>
+      <div class="footer-linkovi2">
+         <a href="#">Povrat i reklamacija</a>
+         <a href="#">Uvjeti korištenja</a>
+         <a href="#">Politika privatnosti</a>
+         <a href="#">Dostava i plaćanje</a>
+      </div>
+      <div class="kol1">
+         <a href="index.html"><img src="slike/logo.png" alt="" width="500px" class="footer-logo"></a>
+         <div class="footer-socials">
+            <a href="https://www.instagram.com/" target="_blank"><img src="slike/inst.png" alt="instagram"></a>
+            <a href="https://www.tiktok.com/" target="_blank"><img src="slike/tt.png" alt="tiktok"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="slike/fb.png" alt="facebook"></a>
+            <a href="https://www.youtube.com/" target="_blank"><img src="slike/yt.png" alt="youtube"></a>
+         </div>
+      </div>
+      <div class="footer-bottom">
+         <p>Copyright 2026 Grifon © Sva prava pridržana. Pijte odgovorno. 18+</p>
+      </div>
+   </footer>
+</body>
+</html>

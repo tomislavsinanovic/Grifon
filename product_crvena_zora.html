@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Grifon</title>
+   <link rel="icon" type="image/png" href="slike/favicon.png">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <script src="script.js"></script>
+</head>
+<body>
+   <nav>
+      <a href="index.html"><img src="slike/logotip.png" alt="logo" width="80px"></a>
+      <div class="izbornik">
+         <a href="ponuda.html">Ponuda</a>
+         <a href="reklama.html">Promocija</a>
+         <a href="onama.html">O nama</a>
+         <a href="kontakt.html">Kontakt</a>
+         <img src="slike/hamb.png" class="hamb" width="50px" onclick="sidebar()">
+      </div>
+      <div class="sidebar">
+         <img src="slike/x.png" class="izlaz" width="50px" onclick="sakrij()">
+         <a href="ponuda.html">Ponuda</a>
+         <a href="reklama.html">Promocija</a>
+         <a href="onama.html">O nama</a>
+         <a href="kontakt.html">Kontakt</a>
+      </div>
+   </nav>
+   <section class="home_product" id="crvena_zora">
+      <div class="hero-product-tekst fade-left">
+         <h1 class="naslov-proizvoda">Crvena<br>zora</h1>
+         <h3 class="podnaslov-proizvoda">Balansirano i bogato</h3>
+         <h3 class="podnaslov-proizvoda">Alk. 5.4% 500ml</h3>
+      </div>
+   </section>
+   <section class="main_product">
+      <div class="product_photo fade-left">
+         <img src="slike/crvena_zora.jpg" alt="" width="500px">
+      </div>
+      <div class="product-opis fade-right">
+         <p>Edicija inspirirana trenutkom kada prve zrake sunca obasjaju nebo i planinske vrhove krvavo crvenom svjetlošću.</p>
+         <p><span>Tip piva:</span> Polutamno (bakreno-crveno), balansirano i bogato pivo.
+            Predstavlja buđenje snage, strast i ponos. Ovo pivo spaja pitkost svijetlog piva s bogatstvom tamnih sladova.
+         </p>
+         <p><span>Karakteristike:</span> Srednjeg tijela, s ugodnom slatkastom podlogom koja podsjeća na koricu pečenog kruha i karamelu, lagano zaokruženo blagom gorčinom.</p>
+         <p><span>Ključni sastojci:</span> Karamelni i melanoidni sladovi; zaslužni za raskošnu crvenkastu boju i puni, slatkasti okus slada.
+            Hmelj Cascade: Donosi blagu, tradicionalnu cvjetnu i blago citrusnu notu koja savršeno balansira slatkoću.
+         </p>
+         <p><span>Alkohol: </span>5.4%</p>
+         <p><span>Boja:</span> Bakreno-crvena</p>
+         <h3>Pronađite kod naših partnera</h3>
+         <div class="partner-logos">
+            <a href="https://www.konzum.hr/" target="_blank"><img src="slike/konzum.png" alt="Konzum"></a>
+            <a href="https://www.kaufland.hr/" target="_blank"><img src="slike/kaufland.png" alt="Kaufland"></a>
+            <a href="https://www.spar.hr/" target="_blank"><img src="slike/spar.png" alt="Spar"></a>
+         </div>
+      </div>
+   </section>
+   <section class="razno">
+      <div class="razno-naslov">
+         <h2>Istražite druge okuse</h2>
+      </div>
+      <div class="razno-kartice">
+         <a href="product_zeleni_dragulj.html" class="product-link">
+            <div class="card4">
+               <div class="card-image-wrapper">
+                  <img src="slike/zeleni_dragulj.jpg" alt="" width="300px">
+               </div>
+               <p class="card-subtitle">GORKO I HMELJENO</p>
+               <p class="card-title">Zeleni dragulj</p>
+            </div>
+         </a>
+         <a href="product_srebrna_kandza.html" class="product-link">
+            <div class="card6">
+               <div class="card-image-wrapper">
+                  <img src="slike/srebrna_kandza.jpg" alt="" width="300px">
+               </div>
+               <p class="card-subtitle">BEZALKOHOLNO</p>
+               <p class="card-title">Srebrna kandža</p>
+            </div>
+         </a>
+         <a href="product_cuvar_snage.html" class="product-link">
+            <div class="card2">
+               <div class="card-image-wrapper">
+                  <img src="slike/cuvar_snage.jpg" alt="" width="300px">
+               </div>
+               <p class="card-subtitle">TRADICIONALNO</p>
+               <p class="card-title">Čuvar snage</p>
+            </div>
+         </a>
+      </div>
+   </section>
+   <footer>
+      <div class="footer-linkovi1">
+         <a href="reklama.html">Promocija</a>
+         <a href="ponuda.html">Ponuda</a>
+         <a href="onama.html">O nama</a>
+         <a href="kontakt.html">Kontakt</a>
+      </div>
+      <div class="footer-linkovi2">
+         <a href="#">Povrat i reklamacija</a>
+         <a href="#">Uvjeti korištenja</a>
+         <a href="#">Politika privatnosti</a>
+         <a href="#">Dostava i plaćanje</a>
+      </div>
+      <div class="kol1">
+         <a href="index.html"><img src="slike/logo.png" alt="" width="500px" class="footer-logo"></a>
+         <div class="footer-socials">
+            <a href="https://www.instagram.com/" target="_blank"><img src="slike/inst.png" alt="instagram"></a>
+            <a href="https://www.tiktok.com/" target="_blank"><img src="slike/tt.png" alt="tiktok"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="slike/fb.png" alt="facebook"></a>
+            <a href="https://www.youtube.com/" target="_blank"><img src="slike/yt.png" alt="youtube"></a>
+         </div>
+      </div>
+      <div class="footer-bottom">
+         <p>Copyright 2026 Grifon © Sva prava pridržana. Pijte odgovorno. 18+</p>
+      </div>
+   </footer>

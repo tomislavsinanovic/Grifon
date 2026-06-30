@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Grifon</title>
+   <link rel="icon" type="image/png" href="slike/favicon.png">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <script src="script.js"></script>
+</head>
+<body>
+   <nav>
+      <a href="index.html"><img src="slike/logotip.png" alt="logo" width="80px"></a>
+      <div class="izbornik">
+         <a href="ponuda.html">Ponuda</a>
+         <a href="reklama.html">Promocija</a>
+         <a href="onama.html">O nama</a>
+         <a href="kontakt.html">Kontakt</a>
+         <img src="slike/hamb.png" class="hamb" width="50px" onclick="sidebar()">
+      </div>
+      <div class="sidebar">
+         <img src="slike/x.png" class="izlaz" width="50px" onclick="sakrij()">
+         <a href="ponuda.html">Ponuda</a>
+         <a href="reklama.html">Promocija</a>
+         <a href="onama.html">O nama</a>
+         <a href="kontakt.html">Kontakt</a>
+      </div>
+   </nav>
+   <section class="onama">
+      <h1 class="fade-left">O nama</h1>
+      <div class="onama-main">
+         <div class="onama-blok fade-blok">
+            <div class="tekst-sadrzaj">
+               <h3>Početak</h3>
+               <p>Prvi zapisi o ovom pivu sežu u <span>1904. godinu</span>, kada je u maloj zanatskoj pivovari na rubu Zagreba započela proizvodnja piva
+                  pod nazivom <span>“čuvar snage”</span>. To nije bio komercijalni proizvod, već dio obiteljske pivarske tradicije koji se pažljivo prenosio 
+                  s generacije na generaciju. Rad pivovare obustavljen je u periodu <span>Drugog svjetskog rata</span> zbog pogibije obiteljskih majstora pivara.
+               </p>
+            </div>
+            <div class="onama-slike">
+               <img src="slike/pocetak.jpg" alt="Početak pivovare">
+            </div>
+         </div>
+         <div class="onama-blok fade-blok">
+            <div class="tekst-sadrzaj">
+               <h3>Ponovno rođenje</h3>
+               <p>Prije ponovnog pokretanja pivovare, <span>1960ih</span>, pronađen je originalni recept koji je ostao sačuvan u kožnom dnevniku prvog obiteljskog majstora pivara.
+                  Na njegovoj prvoj, prašnjavoj stranici, stajao je ručno ucrtan obris mitskog bića <span>Grifona</span>.
+                  Grifon je u obiteljskoj tradiciji bio sinonim za budnog čuvara recepta.
+                  Kada je nova generacija <span>1964. godine</span> ponovno pokrenula proizvodnju, tradiciju su spojili s modernom pivarskom preciznošću. Ime novog piva došlo je prirodno,
+                  kao posveta mitskom zaštitniku s korica knjige.
+               </p>
+            </div>
+            <div class="onama-slike">
+               <img src="slike/ponovno_rodenje.png" alt="Stari recept">
+            </div>
+         </div>
+         <div class="onama-blok fade-blok">
+            <div class="tekst-sadrzaj">
+               <h3>Gdje smo danas?</h3>
+               <p>Grifon je živi dokaz da tradicija, kada se čuva <span>s ljubavlju i poštovanjem</span>, nikada ne gubi na vrijednosti.
+                  Naš fokus ostaje na vrhunskim, pažljivo odabranim sastojcima. Svako kuhanje nadgleda se s istom strašću i preciznošću kao
+                  i 1964. godine.
+                  Grifon danas okuplja zajednicu istinskih zaljubljenika u craft kulturu. Nalazimo
+                  se u odabranim pubovima, craft barovima i trgovinama koje cijene autentičnost.
+               </p>
+            </div>
+            <div class="onama-slike">
+               <img src="slike/danas.jpg" alt="Grifon danas">
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="timeline-sekcija">
+      <div class="timeline-kontejner">
+         <div class="timeline-blok">
+            <div class="timeline-sadrzaj">
+               <h2><span>1904.</span></h2>
+               <p>Početak priče. Prvi zapisi o proizvodnji izvornog "čuvara snage" na rubu Zagreba.</p>
+            </div>
+         </div>
+         <div class="timeline-blok fade-down" style="transition-delay: 0.2s">
+            <div class="timeline-sadrzaj">
+               <h2><span>1945.</span></h2>
+               <p>Prestanak rada originalne pivovare zbog Drugog svjetskog rata.</p>
+            </div>
+         </div>
+         <div class="timeline-blok fade-down" style="transition-delay: 0.4s">
+            <div class="timeline-sadrzaj">
+               <h2><span>1964.</span></h2>
+               <p>Ponovno rođenje. Nova generacija pokreće pogone i mitsko biće s korica dnevnika službeno daje ime pivu.</p>
+            </div>
+         </div>
+         <div class="timeline-blok fade-down" style="transition-delay: 0.6s">
+            <div class="timeline-sadrzaj">
+               <h2><span>2026.</span></h2>
+               <p>Danas, Grifon ponosno stoji kao simbol beskompromisne kvalitete. I dalje vjerni tradiciji. Godišnje proizvedemo do 50 000 litara.</p>
+            </div>
+         </div>
+      </div>
+   </section>
+   <footer>
+      <div class="footer-linkovi1">
+         <a href="reklama.html">Promocija</a>
+         <a href="ponuda.html">Ponuda</a>
+         <a href="onama.html">O nama</a>
+         <a href="kontakt.html">Kontakt</a>
+      </div>
+      <div class="footer-linkovi2">
+         <a href="#">Povrat i reklamacija</a>
+         <a href="#">Uvjeti korištenja</a>
+         <a href="#">Politika privatnosti</a>
+         <a href="#">Dostava i plaćanje</a>
+      </div>
+      <div class="kol1">
+         <a href="index.html"><img src="slike/logo.png" alt="" width="500px" class="footer-logo"></a>
+         <div class="footer-socials">
+            <a href="https://www.instagram.com/" target="_blank"><img src="slike/inst.png" alt="instagram"></a>
+            <a href="https://www.tiktok.com/" target="_blank"><img src="slike/tt.png" alt="tiktok"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="slike/fb.png" alt="facebook"></a>
+            <a href="https://www.youtube.com/" target="_blank"><img src="slike/yt.png" alt="youtube"></a>
+         </div>
+      </div>
+      <div class="footer-bottom">
+         <p>Copyright 2026 Grifon © Sva prava pridržana. Pijte odgovorno. 18+</p>
+      </div>
+   </footer>
+</body>
