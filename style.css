@@ -1263,7 +1263,7 @@ footer a {
     }
 }
 @media (max-width: 550px) {
-    .home-content img {
+    .home-content video {
         width: 300px;
     }
     .cta {
