@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
         observerBlokFade.unobserve(entry.target);
       }
     });
-  }, { threshold: 0.6 });
+  }, { threshold: 0.3 });
 
   const observerOnama = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
