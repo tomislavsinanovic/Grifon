@@ -385,7 +385,7 @@ nav{                           /*---------------IZBORNIK-----------*/
     margin-bottom: 20px;       
 }
 .kartice-header h2 {
-    margin: 80px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
 }
 .kartice-header p {
     font-size: 1.4em;
@@ -1174,10 +1174,6 @@ footer a {
     .onama-slike img {
         width: 100%;
         max-width: 100%;
-    }
-    .kartice-header h2 {
-        font-size: 3.5em;
-        margin: 25px 0px 0px 0px;
     }
     .kartice-header p {
        padding: 0px 30px;
